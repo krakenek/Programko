@@ -1,0 +1,7 @@
+C:\Users\krake\source\repos\Utkanicko\Utkanicko\bin\Debug\Utkanicko.exe.config
+C:\Users\krake\source\repos\Utkanicko\Utkanicko\bin\Debug\Utkanicko.exe
+C:\Users\krake\source\repos\Utkanicko\Utkanicko\bin\Debug\Utkanicko.pdb
+C:\Users\krake\source\repos\Utkanicko\Utkanicko\obj\Debug\Utkanicko.csprojAssemblyReference.cache
+C:\Users\krake\source\repos\Utkanicko\Utkanicko\obj\Debug\Utkanicko.csproj.CoreCompileInputs.cache
+C:\Users\krake\source\repos\Utkanicko\Utkanicko\obj\Debug\Utkanicko.exe
+C:\Users\krake\source\repos\Utkanicko\Utkanicko\obj\Debug\Utkanicko.pdb
