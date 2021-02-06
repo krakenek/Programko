@@ -11,10 +11,10 @@ namespace Utkanicko
         public Team Team1 { get; set; }
         public Team Team2 { get; set; }
 
-        public Zapas(Team Team1, Team Team2)
+        public Zapas(Team team1, Team team2)
         {
-            Team1 = Team1;
-            Team2 = Team2;
+            Team1 = team1;
+            Team2 = team2;
 
         }
     }

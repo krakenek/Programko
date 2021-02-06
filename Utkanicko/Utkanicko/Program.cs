@@ -72,7 +72,7 @@ namespace Utkanicko
             }
             foreach(Zapas match in zapas)
             {
-                Console.WriteLine("Zapas probehne mezi:" + match.Team1.Nazev + "a" + match.Team2.Nazev);
+                Console.WriteLine("Zapas probehne mezi:" + match.Team1.Nazev + " a " + match.Team2.Nazev);
             }
             Console.ReadKey();
 
