@@ -38,32 +38,46 @@ namespace Utkanicko
                 Console.WriteLine("Takze kolik dnes bude hrát týmu?");
                 pocet = Int32.Parse(Console.ReadLine());
             }
-            int i = 0;
-            string nazev_tymu;
-            while (true)
+            int tmp = 1;
+            List<Team> listik = new List<Team>();
+            for (int i = 0; i < pocet; i++)
             {
-                i++;
-                Console.WriteLine("Nyni pojdme pojmenovat " + i + ". tym");
-                var nazev_tymu = new Team();
-                if (i > 10)
+                Console.WriteLine("Nyni pojmenujte " + tmp + ". tym");
+                listik.Add(new Team(Console.ReadLine()));
+                tmp++;
+            }
+            tmp = 1;
+            foreach (Team nazev in listik)
+            {
+                Console.WriteLine("Jmeno " + tmp + ". tymu je: " + nazev.Nazev);
+                tmp++;
+            }
+            List<Zapas> zapas = new List<Zapas>();
+            for (int i = 0; i < pocet; i++)
+            {
+                tmp = 1;
+                while (true)
                 {
-                    break;
+                    if (tmp == pocet - i)
+                    {
+                        break;
+                    }
+                    Team team1 = listik[i];
+                    Team team2 = listik[i + tmp];
+                    Zapas match = new Zapas(team1,team2 );
+                    zapas.Add(match);
+                    tmp++;
+                    
                 }
+            }
+            foreach(Zapas match in zapas)
+            {
+                Console.WriteLine("Zapas probehne mezi:" + match.Team1.Nazev + "a" + match.Team2.Nazev);
             }
             Console.ReadKey();
 
 
 
         }
-        public List<string> Pridani(string str1)
-        {
-                var tym = new List<string>();
-                tym.Add(str1);
-        }
-        class Team
-        {
-
-        }
-        
     }
 }
