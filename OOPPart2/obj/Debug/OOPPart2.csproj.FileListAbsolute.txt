@@ -1,0 +1,7 @@
+C:\Users\Tomáš\Documents\GitHub\Programko\OOPPart2\bin\Debug\OOPPart2.exe.config
+C:\Users\Tomáš\Documents\GitHub\Programko\OOPPart2\bin\Debug\OOPPart2.exe
+C:\Users\Tomáš\Documents\GitHub\Programko\OOPPart2\bin\Debug\OOPPart2.pdb
+C:\Users\Tomáš\Documents\GitHub\Programko\OOPPart2\obj\Debug\OOPPart2.csprojAssemblyReference.cache
+C:\Users\Tomáš\Documents\GitHub\Programko\OOPPart2\obj\Debug\OOPPart2.csproj.CoreCompileInputs.cache
+C:\Users\Tomáš\Documents\GitHub\Programko\OOPPart2\obj\Debug\OOPPart2.exe
+C:\Users\Tomáš\Documents\GitHub\Programko\OOPPart2\obj\Debug\OOPPart2.pdb
