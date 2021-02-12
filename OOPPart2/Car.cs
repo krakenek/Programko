@@ -11,21 +11,43 @@ namespace OOPPart2
     {
         // Parametry
         public string Barva { get; set; }
-        public string Znacka { get; set; }
+        public string Velikost { get; set; }
         public int Year { get; set; }
 
         // Konstruktor
-        public Car(string barva, string znacka, int year)
+        public Car(string barva, string velikost, int year)
         {
             Barva = barva;
-            Znacka = znacka;
+            Velikost = velikost;
             Year = year;
         }
 
-        public Car(string barva, string znacka)
+        // Konstruktor 2
+        public Car(string barva, string velikost)
         {
             Barva = barva;
-            Znacka = znacka;
+            Velikost = velikost;
+        }
+
+        //Konstruktor 3
+        public Car()
+        { 
+        
+        }
+
+        public void BarvaAuta()
+        {
+            Console.WriteLine(Barva);
+        }
+
+        public void RokAuta()
+        {
+            Console.WriteLine(Year);
+        }
+
+        public int VratRok()
+        {
+            return Year;
         }
 
     }
