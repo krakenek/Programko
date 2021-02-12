@@ -28,18 +28,38 @@ namespace OOPPart2
 
             CarFactory poldovka = new CarFactory("audi", "peknemaly");
             List<Auto> listaut = new List<Auto>();
-
+            /*
             Auto auticko = new Auto(poldovka,2020,"zluty");
             Auto auticko2 = new Auto(poldovka, 2014, "cerveny");
-            Auto auticko3 = new Auto(poldovka, 2020, "modry");
-
+            Auto auticko3 = new Auto(poldovka, 2020, "modry");*/
+            /*
             listaut.Add(auticko);
             listaut.Add(auticko2);
-            listaut.Add(auticko3);
+            listaut.Add(auticko3);*/
+            int pocet = 0;
+            List<Car> listicek = new List<Car>();
+            while (pocet < 2)
+            {
+                pocet++;
+                Console.WriteLine("Napis Barvu auta");
+                string barvicka = Console.ReadLine();
+                Console.WriteLine("Napis Velikost auta");
+                string velikost = Console.ReadLine();
+                Console.WriteLine("Napis Rok auta");
+                int rok = Int32.Parse(Console.ReadLine());
+                listicek.Add(new Car(barvicka, velikost, rok));
+
+            }
+
+            foreach (Car auto in listicek)
+            {
+                    Console.WriteLine(auto.Year + " " + auto.Velikost + " " + auto.Barva);
+            }
 
             // Console.WriteLine(auticko.Znacka + " " + auticko.Year + " " + auticko.Velikost + " " + auticko.Barva);
             //Console.WriteLine(listaut[0].Znacka + " " + listaut[0].Year + " " + listaut[0].Velikost + " " + listaut[1].Barva);
-            int pocet = 0;
+            /*
+            pocet = 0;
             foreach (Auto auto in listaut)
             {
                 pocet++;
@@ -47,7 +67,7 @@ namespace OOPPart2
                 {
                     Console.WriteLine(auto.Znacka + " " + auto.Year + " " + auto.Velikost + " " + auto.Barva);
                 }
-            }
+            }*/
 
             Console.ReadKey();
         }
